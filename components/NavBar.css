@@ -1,0 +1,537 @@
+
+
+*{
+    background-color: rgb(30, 30, 30);
+    
+}
+/*{
+    background-image: url("../asset/img.webp") ;
+   
+  
+}*/
+.navbar{
+
+    height: 65px;
+    color:  rgb(240, 211, 45);
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8rem;
+    
+}
+.nav-logo{
+    width: 7%;
+    height: 150%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    color: rgb(240, 211, 45);
+    text-decoration: none;
+    font-size: 320%;
+   
+    
+}
+
+
+.nav-links{
+    color:rgb(167, 166, 166);
+    text-decoration: none;
+}
+
+.nav-links{
+
+    display: flex;
+    gap: 70px;
+    list-style: none;
+}
+.nav-links:hover{
+    color: rgb(240, 211, 45);
+    text-decoration:none;
+
+    
+   
+    
+}
+.nav-icons{
+    display:none;
+    font-size: 2rem;
+    cursor:pointer;
+}
+
+button{
+   
+    border-radius:9vb ;
+    background-color: rgb(240, 211, 45);
+    color: black;
+    font-weight: bolder;
+    border: none;
+    font-size: 70%;
+    margin-bottom: 15%;
+    
+}
+button:hover{
+   background-color: white;
+   
+    
+}
+
+.header{
+    font-size: 420%;
+    margin: 1%;
+    margin-left: 9%;
+    
+    
+}
+.hello{
+    color: rgb(182, 179, 179);
+}
+.karishma{
+    color:rgb(209, 186, 57);
+}
+
+p{
+    color:rgb(182, 179, 179);
+    
+}
+.para{
+   
+    font-size: 32%;
+    font-weight:200;
+    color: rgba(255, 255, 255, 0.425);
+}
+
+#about{
+    padding-Left: 43%;
+    color: rgb(192, 171, 50);
+}
+
+.para1{
+padding-Top:  6%;
+ padding-Left: 45%;
+}
+
+.para2{
+    padding-Left: 40%;
+    color: rgb(192, 171, 50);
+     
+}
+
+#para3{
+    padding-Left: 1%;
+    font-Size: 90%;
+    font-Weight: bold;
+    text-align:center;
+}
+
+.para4{
+    padding-Left:40%; color: rgb(192, 171, 50);
+}
+
+#para5{
+    font-Size: 90%;
+    font-Weight: bold;
+    text-Align: center;
+}
+
+.para6{
+    color: rgba(153, 149, 149, 0.527);
+    font-Weight: bolder;
+    margin-Top: 10%;
+    margin-Left: 4%;
+    font-Size: 110%;
+}
+ #card{
+    margin-Left: 15%; 
+    margin-Top: 5%;
+ }
+ 
+#education{
+    color: rgb(192, 171, 50);
+     padding-Left: 48%;
+
+}
+#experience{
+    color: rgb(192, 171, 50); 
+    padding-Left: 48%;
+}
+ 
+.skills{
+
+    color: rgb(192, 171, 50);
+    margin-top: 6%;
+    margin-left: 44%;
+    font-weight: 200;
+    font-family:monospace;
+}
+
+#skillcard{
+   
+    margin-top: 4%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+#skills{
+    margin-left: 15%;
+}
+.flogo{
+    width: 93%;
+    margin-top: 15%;
+    margin-left: 5%;
+    
+}
+.bootstrap{
+    width: 45%;
+    margin-top: 16%;
+    margin-left: 40%;
+    
+    
+}
+
+.react {
+    width: 70%;
+    margin-top:6%;
+    margin-left: 20%;
+}
+.java{
+    width: 50%;
+    margin-top:4%;
+    margin-left: 18%;
+}
+
+.sql{
+    width: 35%;
+    margin-top:19%;
+    margin-left: 19%;
+}
+
+.fpara{
+    font-size:119%;
+    margin-left:0%;
+}
+
+.reactpara{
+    font-size:120%;
+    margin-left: 25%;
+}
+
+.javapara{
+    font-size:120%;
+    margin-left: 25%;
+}
+.sqlpara{
+    font-size:120%;
+    margin-left: 20%;
+    
+}
+.bootpara{
+    font-size:120%;
+    margin-left: 25%;
+}
+ 
+.fsd{
+    margin-top: 5%;
+    margin-left: 30%;
+    color: rgb(168, 150, 44);
+}
+.mainpara{
+    margin-top: 4%;
+   margin-left:5%;
+   color: rgb(145, 144, 144);
+}
+.mainpara1{
+    margin-left: 0%;
+    color: rgb(145, 144, 144);
+}
+
+.projects{
+    color: rgb(187, 166, 49) ;
+    margin-top: 4%;
+    margin-left: 42%;
+}
+
+
+.card{
+  background-color: rgb(238, 234, 29);
+  padding:1%;
+   
+}
+.card-title{
+    color: rgb(238, 234, 29) ;
+}
+
+
+
+
+.mailfrom{
+    margin-top: 8%;
+    margin-left: 33%;
+    color: rgb(241, 241, 238);
+   
+}
+ .input1{
+    width: 50%;
+    background-color: rgb(202, 202, 48);
+    margin-top: 1%;
+    margin-bottom: 2%;
+ }
+ .input2{
+    width: 50%;
+    background-color: rgb(202, 202, 48);
+    margin-top: 1%;
+    margin-bottom: 2%;
+ }
+ .input3{
+    width: 50%;
+    background-color: rgb(202, 202, 48);
+    margin-top: 1%;
+    margin-bottom: 2%;
+ }
+
+ .submit{
+    width: 20%;
+    margin-left: 15%;
+    margin-top: 2%;
+    background-color: rgb(202, 202, 48);
+    margin-top: 1%;
+    margin-bottom: 2%;
+ }
+
+@media only screen and (max-width:1000px){
+    .header{
+        font-size: 200%;
+        margin: 3%;
+        margin-left: 15%;
+    }
+    .navbar{
+        height: 60px;
+        background-color: rgb(30, 30, 30) ;
+        color:white;
+        font-size: 80%;
+        display: flex;
+        align-items:flex-end;
+        
+        padding: 0 1rem;
+        
+    }
+    .nav-links:hover{
+        color: rgb(240, 211, 45);
+       text-decoration: none;
+      
+       
+    }
+    
+        
+
+    .nav-logo{
+        width: 9%;
+        height: 120%;
+        padding-top: 6%;
+        padding-bottom: 1%;
+        padding-left: 2%;
+        color: rgb(240, 211, 45);
+        text-decoration: none;
+        font-size: 320%;
+       
+        
+    }
+
+    .nav-links{
+
+        display: flex;
+        gap: 30px;
+        list-style: none;
+    }
+
+    button{
+   
+        border-radius:9vb ;
+        background-color: rgb(240, 211, 45);
+        color: black;
+        font-weight: bolder;
+        border: none;
+        font-size: 70%;
+        margin-bottom: 25%;
+        
+    }
+    #about{
+        padding-Left: 39%;
+        color: rgb(192, 171, 50);
+        font-size: 150%;
+    }
+    .para1{
+    padding-Top:  6%;
+     padding-Left: 40%;
+     font-size: 70%;
+    }
+
+    .para2{
+        padding-Left: 21%;
+        color: rgb(192, 171, 50);
+        font-size:90%;
+    }
+
+    #education{
+        color: rgb(192, 171, 50);
+        padding-Left: 40%;
+        font-size: 80%;
+    
+    }
+
+    #para3{
+        padding-Left: 1%;
+        font-Size:70%;
+        font-Weight:500;
+        text-align:center;
+    }
+
+    #experience{
+        color: rgb(192, 171, 50);
+        padding-Left: 48%;
+        font-size: 80%;
+    }
+
+    .para4{
+        padding-Left:25%; 
+        color: rgb(192, 171, 50);
+        font-size: 85%;
+    }
+
+    #para5{
+        font-Size: 50%;
+        font-Weight:600;
+        text-Align: center;
+    }
+
+    .para6{
+        color: rgba(153, 149, 149, 0.527);
+        font-Weight:500;
+        margin-Top: 7%;
+        margin-Left: 0%;
+        font-Size: 90%;
+        text-Align: center;
+    }
+
+    .skills{
+
+        color: rgb(192, 171, 50);
+        margin-top: 4%;
+        margin-left: 46%;
+        font-weight: 200;
+        font-size: 120%;
+        font-family:monospace;}
+
+
+  #skillcard{
+   
+    margin-top: 2%;
+    margin-left: 7%;
+    margin-right: 7%;
+        }
+        .flogo{
+            width: 93%;
+            margin-top: 15%;
+            margin-left:20%;
+            
+        }
+        
+.fpara{
+    font-size:50%;
+    margin-right:3%;
+}
+
+.reactpara{
+    font-size:59%;
+    margin-left: 25%;
+}
+
+.javapara{
+    font-size:59%;
+    margin-left: 25%;
+}
+.sqlpara{
+    font-size:59%;
+    margin-left: 20%;
+}
+.bootpara{
+    font-size:59%;
+    margin-left: 22%;
+}
+
+.fsd{
+    margin-top: 2%;
+    margin-left: 33%;
+    color: rgb(168, 150, 44);
+    font-size: 125%;
+}
+.mainpara{
+    margin-top: 2%;
+   margin-left: 3%;
+   color: rgb(230, 222, 222);
+   font-size: 70%;
+  text-align: center;
+}
+.mainpara1{
+    margin-left: 2%;
+    color: rgb(218, 215, 215);
+    font-size: 70%;
+    text-align: center;
+    
+}
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*about page*/
+
+
+
+/*@media only screen and (min-width:601px)and(max-width:991px){
+    
+    .header{
+        font-size: 200%;
+        margin: -3%;
+        margin-left: 15%;
+    }
+    .navbar{
+        height: 60px;
+        background-color: rgb(30, 30, 30) ;
+        color:white;
+        font-size: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1rem;
+        
+    }
+    .nav-links:hover{
+        color: rgb(240, 211, 45);
+       text-decoration: none;
+      
+       
+    }
+    .nav-logo{
+        color: white;
+        text-decoration: none;
+        font-size:350%;
+        padding-left: 7%;
+        
+    }
+
+
+}*/
